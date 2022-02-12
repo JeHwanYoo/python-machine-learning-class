@@ -3,6 +3,7 @@ Machine Learning Class Implementation with Python
 
 ## Reference
 Github: https://github.com/bjpublic/MLpythonpiece
+
 Book: http://www.yes24.com/Product/Goods/87663679
 
 ## Example
