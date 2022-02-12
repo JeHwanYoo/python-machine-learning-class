@@ -87,9 +87,3 @@ class BinaryClassification(ML):
   def predict(self, x):
     z = np.dot(x, self.W) + self.b
     return self.activate(z)
-
-class MulticlassClassification(BinaryClassification):
-  def predict(self, x):
-    z = np.dot(x, self.W) + self.b
-    y = self.activate(z)
-    return (y, np.argmax(y))
